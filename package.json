@@ -56,7 +56,8 @@
     "cross-env": "7.0.3",
     "husky": "9.1.7",
     "lint-staged": "15.4.3",
-    "prettier": "3.5.2"
+    "prettier": "3.5.2",
+    "next-translate-plugin": "1.5.0"
   },
   "resolutions": {
     "axios": "1.8.4",
@@ -66,10 +67,11 @@
     "nanoid": "3.3.8",
     "path-to-regexp": "0.1.12",
     "tar-fs": "3.0.9",
-    "typescript": "5.5.4"
+    "typescript": "5.5.4",
+    "next-translate-plugin": "1.5.0"
   },
   "engines": {
-    "node": "v20"
+    "node": "v22"
   },
   "packageManager": "yarn@3.3.0"
 }
