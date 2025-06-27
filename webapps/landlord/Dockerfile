@@ -1,5 +1,5 @@
 # Stage 1: Base image
-FROM node:22-bookworm-slim AS base
+FROM node:yarn install-bookworm-slim AS base
 
 # Stage 2: Install dependencies
 FROM base AS deps

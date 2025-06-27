@@ -1,5 +1,5 @@
 const path = require('path');
-const nextTranslate = require('next-translate-plugin');
+const nextTranslate = require('next-translate');
 
 module.exports = nextTranslate({
   output: 'standalone',
