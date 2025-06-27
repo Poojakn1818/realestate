@@ -63,6 +63,8 @@ COPY --from=build /usr/app/webapps/commonui/scripts/generateruntimeenvfile.js ./
 COPY --from=build /usr/app/webapps/commonui/scripts/replacebasepath.js ./
 COPY --from=build /usr/app/webapps/commonui/scripts/runner.js ./
 
+RUN chmod +x runner.js
+
 USER 1000
 CMD ["node", "runner.js"]
 
